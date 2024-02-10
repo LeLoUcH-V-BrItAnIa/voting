@@ -1,0 +1,203 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #upload {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  #headerSection {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000px;
+    color: aliceblue;
+    font-family: cursive;
+    text-shadow: 5px 5px black;
+    /* background-color: rgb(131, 95, 195); */
+    /* background: radial-gradient(#00ddff,#ffffff); */
+    /* background: linear-gradient(to right,#566b80,#f000f0 ,#a0f000,#14f000 ,#f000f0  ); */
+  
+    /* padding: 20px; */
+    /* margin: 10px; */
+  
+    /* width: 100%; */
+  }
+  h2{
+    /* padding-top: 10px; */
+    font-size: 25px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px black;
+    /* padding: 10px 10px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .child1{
+    padding: 25px;
+    justify-content: space-around;
+  }
+  #upload{
+    /* background: linear-gradient(to right, #02f2f6,#02f2f6,#f1f1f1); */
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 2px rgb(0, 0, 0);
+    color: #f1f1f1;
+
+    
+  }
+  
+  
+  
+  #loginSection {
+    padding: 5px;
+    /* padding-top: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    /* padding: 2.5rem; */
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.236);
+    border-radius: 0.625rem;
+    backdrop-filter: blur(9px);
+    
+  }
+  
+  body {
+    background:url(https://media.istockphoto.com/id/1283508282/photo/online-voting-hand-with-a-hologram-ballot-and-a-box-for-internet-voting-in-a-mobile-phone-on.jpg?s=612x612&w=0&k=20&c=c-amhYQXgDHA4VbKB1M5JbnZIasUyeFmFIzofZ_HUw8=);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    backdrop-filter: blur(2px);
+  }
+  
+  #loginbtn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #18b9c2;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 2ms;
+    cursor: pointer;
+  }
+  #loginbtn:hover{
+  background: linear-gradient(to right,#3498db,#02f2f6);
+  
+  }
+  
+  #reglink {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  input[type=file]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    /* display: inline-block; */
+    border: none;
+    background: #f1f1f100;
+  }
+
+  
+  p{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 2px;
+
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  select{
+    width: 100%;
+     cursor: pointer;/*
+      padding: 0;
+      width: 100%;
+      padding: 0.625rem 0;
+      font-size: 1rem;
+      color: #ffffff;
+      letter-spacing: 0.062rem;
+      margin-bottom: 1.875rem;
+      border: none;
+      border-bottom: 0.065rem solid #000000; */
+      /* outline: none; */
+      /* background: transparent; */
+  
+  }
+  input{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #mainSection {
+    padding: 10px;
+  }
+  
+ 
+  #profileSection {
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #groupSection {
+    width: 60%;
+    float: right;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #back-button {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #logout-button {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  
+  }
+  

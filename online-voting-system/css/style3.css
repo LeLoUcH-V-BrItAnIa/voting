@@ -1,0 +1,128 @@
+body,html{
+    margin: 0;
+    height: 100%;
+  
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #upload {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  #headerSection {
+    text-align: center;
+    /* background-color: rgb(19, 135, 185); */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    background: url(https://spectrum.ieee.org/media-library/image.jpg?id=25576591);
+    background-position: center;
+    padding: 10px;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    font-size: larger;
+    width: 100%;
+    font-family: Cursive;
+  }
+  
+  #loginSection {
+    padding: 5px;
+  }
+  
+  body {
+    /* background-color: #e9d694; */
+    background:url(https://images.theconversation.com/files/529878/original/file-20230602-15-hjwz91.jpg?ixlib=rb-1.1.0&rect=0%2C25%2C5691%2C2841&q=45&auto=format&w=668&h=324&fit=crop);
+    backdrop-filter: blur(2px);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #loginbtn {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #reglink {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #mainSection {
+    padding: 10px;
+  }
+  
+  #profileSection {
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 2px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+  }
+  
+  #groupSection {
+    width: 60%;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 2px rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  #back-button {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 2ms;
+    border-radius: 5px;
+  }
+  #back-button:hover{
+    background: linear-gradient(to right,#3498db,#02f2f6);
+    
+    }
+
+  
+  #logout-button {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2ms;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  #logout-button:hover{
+    background: linear-gradient(to right,#3498db,#02f2f6);
+    
+    }

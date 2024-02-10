@@ -1,0 +1,25 @@
+<?php
+
+                                if($_SESSION['status']==0)
+				{
+                                   
+                                       
+                                    echo "<button style="padding: 5px; font-size: 15px; background-color: #3498db; color: white; border-radius: 5px;" type="submit">Vote</button>";
+                                    
+                                }
+?>
+
+
+<?php
+
+                                if($_SESSION['status']==1){
+                                    ?>
+                                    <button disabled style="padding: 5px; font-size: 15px; background-color: #27ae60; color: white; border-radius: 5px;" type="button">Voted</button>
+                                    <?php
+                                }
+                                else{
+                                    ?>
+                                    <button style="padding: 5px; font-size: 15px; background-color: #3498db; color: white; border-radius: 5px;" type="submit">Vote</button>
+                                    <?php
+                                }
+                                ?>

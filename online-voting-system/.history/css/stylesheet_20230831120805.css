@@ -1,0 +1,101 @@
+body,html{
+  margin: 0;
+  height: 100%;
+  
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#headerSection {
+  text-align: center;
+  /* background-color: rgb(131, 95, 195); */
+  /* background: radial-gradient(#566b80,#f000f0); */
+  background: linear-gradient(tright,#566b80,#f000f0 );
+  padding: 10px;
+  width: 100%;
+  font-family: Cursive;
+}
+
+#loginSection {
+  padding: 5px;
+}
+
+body {
+  background:url(https://static.independent.co.uk/2022/09/13/16/iStock-1269463469.jpg);
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}

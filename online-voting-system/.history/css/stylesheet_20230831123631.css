@@ -1,0 +1,148 @@
+body,html{
+  margin: 0;
+  height: 100%;
+  
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#headerSection {
+  text-align: center;
+  font-size: larger;
+  font-weight: 900px;
+  colo
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px black;
+  /* background-color: rgb(131, 95, 195); */
+  /* background: radial-gradient(#00ddff,#ffffff); */
+  /* background: linear-gradient(to right,#566b80,#f000f0 ,#a0f000,#14f000 ,#f000f0  ); */
+
+  /* padding: 20px; */
+  /* margin: 10px; */
+
+  /* width: 100%; */
+}
+
+
+
+#loginSection {
+  padding: 5px;
+  /* padding-top: 100px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  /* padding: 2.5rem; */
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.236);
+  border-radius: 0.625rem;
+  backdrop-filter: blur(9px);
+  
+}
+
+body {
+  background:url(https://static.independent.co.uk/2022/09/13/16/iStock-1269463469.jpg);
+  background-size: cover;
+  background-repeat:  no-repeat;
+  backdrop-filter: blur(2px);
+}
+
+#loginbtn {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #3498db;
+  display: block;
+  margin: auto;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+select{
+  width: 100%;
+   cursor: pointer;/*
+    padding: 0;
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #ffffff;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #000000; */
+    /* outline: none; */
+    /* background: transparent; */
+
+}
+input{
+  position:relative;
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
